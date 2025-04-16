@@ -1,9 +1,9 @@
 ## Code Mine Digger  
-Is a variation of the classic Minesweeper game.
-It’s sure to test your strategy and luck.
-Are you up for the challenge!
+Is a variation of the classic Minesweeper game.<br>
+It’s sure to test your strategy and luck.<br>
+Are you up for the challenge!<br>
 
-## 📁Project Folder Tree Structure
+## 📁 Project Folder Tree Structure
 ``````
 Code Mine Digger/
 │
@@ -49,33 +49,33 @@ Make sure that the Code Mind Digger folder is downloaded before continuing ...
 #### 🎯 How to Play Minesweeper
 1. Objective: Clear the board without triggering any mines.
 2. Board: A grid of cells; some contain mines, others are safe.
-3. Gameplay:
-    First move is always safe.
-    Click a cell to reveal its content.
-    Numbers show how many mines are adjacent.
-    Use flags to mark potential mines.
+3. Gameplay:<br>
+       First move is always safe.<br>
+       Click a cell to reveal its content.<br>
+       Numbers show how many mines are adjacent.<br>
+       Use flags to mark potential mines.<br>
 4. Winning: Clear all safe cells.
 5. Losing: Clicking a mine ends the game.
 6. Flagging: Flagged cells cannot be revealed until unflagged.
 
 #### Game modes
 1. Difficulty Levels mode 
-       - Choose from Easy, Medium, or Hard.
-       - Board size and mine count adjust based on difficulty.
+       - Choose from Easy, Medium, or Hard.<br>
+       - Board size and mine count adjust based on difficulty.<br>
 2. Custom mode 
-       - You decide the board size and mine count.
-       - Minimum board size is 3×3, and mines must be fewer than total cells.
+       - You decide the board size and mine count.<br>
+       - Minimum board size is 3×3, and mines must be fewer than total cells.<br>
 3. Infinite Roulette mode 
-       - Random board and mine count every round.
-       - Play continues until the player quits or loses.
+       - Random board and mine count every round.<br>
+       - Play continues until the player quits or loses.<br>
        
 #### Leaderboard
 1. Difficulty Levels mode
-       - Ranked by time taken to win.
-       - Faster times = higher ranks.
+       - Ranked by time taken to win.<br>
+       - Faster times = higher ranks.<br>
 2. Infinite Roulette mode
-       - Ranked by win streaks.
-       - The longer the streak, the higher the rank.
+       - Ranked by win streaks.<br>
+       - The longer the streak, the higher the rank.<br>
 
 By the way I'm just a begginner in programming, and i'm sure there is still alot to improve in this program.
 Thanks you for checking the game, I hope you have fun playing!
