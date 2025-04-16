@@ -3,7 +3,7 @@ Is a variation of the classic Minesweeper game.<br>
 It’s sure to test your strategy and luck.<br>
 Are you up for the challenge!<br>
 
-## 🛠️Instructions to Run and Play the Program
+## 🛠️ Instructions to Run and Play the Program
 
 ##### Compiling  
 (*Assumes you have [MinGW](https://sourceforge.net/projects/mingw/) installed*)
@@ -23,7 +23,7 @@ Are you up for the challenge!<br>
 ##### Run and play the game:
 4. The run the executable using: (or if you change the name of the excutable please use that) 
 ``````
-    * ./bin/mines 
+    ./bin/mines 
 ``````
 
 ### 🧠 How to Play Minesweeper
