@@ -3,30 +3,6 @@ Is a variation of the classic Minesweeper game.<br>
 It’s sure to test your strategy and luck.<br>
 Are you up for the challenge!<br>
 
-## 📁 Project Folder Tree Structure
-``````
-Code Mine Digger/
-│
-│
-├── data/ 
-│     -> (contain the data for the leaderboard)
-│     -> (files are automatically added as the game start to recieve the data from the game) 
-│     -> (the data is used by the ranking library to create the leaderboard)
-│
-├── include/
-│   ├── assets.h      (ASCII Designs interface) 
-│   └── rankings.h    (Leaderboard && Sorting interface)
-│
-├── obj/              (object files will be stored here)
-│
-├── src/
-│   ├── assets.cpp    (ASCII Designs Implementation)
-│   └── helper.cpp    (Leaderboard && Sorting Implementation)
-│
-│
-└── main.cpp (Array Impementation -> through minesweeper game and modes)
-``````
-
 ## 🛠️Instructions to Run and Play the Program
 Make sure that the Code Mind Digger folder is downloaded before continuing ...
 
@@ -44,7 +20,6 @@ Make sure that the Code Mind Digger folder is downloaded before continuing ...
 ``````
     g++ src/main.cpp obj/assets.o obj/rankings.o -I include -o bin/mines
 ``````
-    note: you can name the excutable mines with any name you want       
 
 ##### Run and play the game:
 4. The run the executable using: (or if you change the name of the excutable please use that) 
