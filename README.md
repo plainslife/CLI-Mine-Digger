@@ -1,16 +1,12 @@
-Author: plainslife
+## Code Mine Digger  
+**Author:** plainslife ife
 
-### Code Mine Digger 
-Is an exciting variation of the classic Minesweeper game.
-Offering a fresh take on the original concept. 
+Is a variation of the classic Minesweeper game.
 With a range of engaging game modes and challenges.
+It’s sure to test your strategy and luck.
 Are you up for the challenge!
 
-The following is just a short description for the program. 
-Please play the game to find out more of its functions.
-
-### Project Folder Tree Structure
-
+##   Project Folder Tree Structure
 Code Mine Digger/
 │
 │
@@ -32,74 +28,55 @@ Code Mine Digger/
 │
 └── main.cpp (Array Impementation -> through minesweeper game and modes)
 
-
-### Instructions to Run and Play the Program
-
+## 🛠️ Instructions to Run and Play the Program
 Make sure that the Code Mind Digger folder is downloaded before continuing ...
 
-Compiling (this assumes that you have mingw as your c++ compiler):
-1. First please open you terminal (cmd, powershell, etc.), 
-   And make sure you are at the directory where the program is located, 
-   i.e in the Code Mine Digger folder that you downloaded. 
-   You can check the directory you are in using the command: pwd
-2. To move to a directory you can use the command: cd [programDirectory]
-3. Compile the two libraries into object using:
+##### 󰖷 Compiling  
+(*Assumes you have [MinGW](https://sourceforge.net/projects/mingw/) installed*)
+1. Open your terminal (CMD, PowerShell, etc.) and navigate to the Code Mine Digger directory
+2. Compile the two libraries into object using:
        * g++ -c src/assets.cpp -I include -o obj/assets.o
        * g++ -c src/rankings.cpp -I include -o obj/rankings.o
 
-Building:
-4. After turning the two files to object link it together with the main files:
+#####   Building
+3. After turning the two files to object link it together with the main files:
        * g++ src/main.cpp obj/assets.o obj/rankings.o -I include -o bin/mines
-       note: you can name the excutable mines with any name you want      
+       note: you can name the excutable mines with any name you want       
 
-Run and play the game:
-5. The run the executable using: (or if you change the name of the excutable please use that) 
-       * ./bin/mines (if you're using powershell)
-       * /bin/mines (if you're using command prompt)
+#####  Run and play the game:
+4. The run the executable using: (or if you change the name of the excutable please use that) 
+       * ./bin/mines 
 
-### If you don't have MINGW installed please refer to this link to download...
-https://sourceforge.net/projects/mingw/
+#### 🎯 How to Play Minesweeper
+1. Objective: Clear the board without triggering any mines.
+2. Board: A grid of cells; some contain mines, others are safe.
+3. Gameplay:
+    First move is always safe.
+    Click a cell to reveal its content.
+    Numbers show how many mines are adjacent.
+    Use flags to mark potential mines.
+4. Winning: Clear all safe cells.
+5. Losing: Clicking a mine ends the game.
+6. Flagging: Flagged cells cannot be revealed until unflagged.
 
-### How to Play Minesweeper
-
-1. Objective: The goal of Minesweeper is to clear the board without detonating any mines.
-2. Game Board: You are presented with a grid of cells. Some cells contain mines, and others are safe.
-3. Game Rules:
-       - First move is safe
-       - Click a cell to reveal its content.
-       - If a mine is revealed, you lose the game.
-       - If a number is revealed, it indicates the number of adjacent mines.
-       - Use the numbers to deduce the locations of mines.
-       - Put a flag in a cell that is a potential mine.
-
-4. Winning: You win when all safe cells are uncovered and all mines are correctly flagged.
-5. Losing: You lose if you click on a mine.
-7. Flagging: You can put a flag at a cell with potential mine, 
-             when a cell is flag the player cannot dig/reveal the cell,
-             it need to be unflage first.
-8. Enjoy the Game!: Play and have fun in playing the modes in this game!
-
-
-### Game modes (short description for the game modes)
+#### Game modes
 1. Difficulty Levels mode 
-       - The board size and number of mines will be determined based on the players
-       - chosen difficulty (easy, medium, and hard)
+       - Choose from Easy, Medium, or Hard.
+       - Board size and mine count adjust based on difficulty.
 2. Custom mode 
-       - The board size and the number of mines is determined by the players
-       - The minimum board size is: rows = 3 and columns = 3  
-       - The number of mines should be less than the board size
+       - You decide the board size and mine count.
+       - Minimum board size is 3×3, and mines must be fewer than total cells.
 3. Infinite Roulette mode 
-       - The board size and the number of mines is random
-       - The player will continue playing until he/she quits or lose the game
+       - Random board and mine count every round.
+       - Play continues until the player quits or loses.
        
-### Leaderboard
+#### Leaderboard
 1. Difficulty Levels mode
-       - The player's rank is based on the time it took the player's chosen difficulty is completed(win the game)
-       - The shorter the time the higher the rank
+       - Ranked by time taken to win.
+       - Faster times = higher ranks.
 2. Infinite Roulette mode
-       - The player's rank is based on how many win streak the player's did
-       - The more winning streak the higher the rank
+       - Ranked by win streaks.
+       - The longer the streak, the higher the rank.
 
-If you encounter any unprecented behaviour in the program please feel free to contact me.  
 By the way I'm just a begginner in programming, and i'm sure there is still alot to improve in this program.
 Thanks you for checking the game, I hope you have fun playing!
