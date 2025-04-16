@@ -1,14 +1,13 @@
-## Code Mine Digger  
+## CLI Mine Digger  
 Is a variation of the classic Minesweeper game.<br>
 It’s sure to test your strategy and luck.<br>
 Are you up for the challenge!<br>
 
 ## 🛠️Instructions to Run and Play the Program
-Make sure that the Code Mind Digger folder is downloaded before continuing ...
 
 ##### Compiling  
 (*Assumes you have [MinGW](https://sourceforge.net/projects/mingw/) installed*)
-1. Open your terminal (CMD, PowerShell, etc.) and navigate to the Code Mine Digger directory
+1. Open your terminal (CMD, PowerShell, etc.) and navigate to the CLI Mine Digger directory
 2. Compile the two libraries into object using:
 ``````
     g++ -c src/assets.cpp -I include -o obj/assets.o
