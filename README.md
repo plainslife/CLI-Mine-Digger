@@ -1,7 +1,4 @@
-## CLI Mine Digger  
-Is a variation of the classic Minesweeper game.<br>
-It’s sure to test your strategy and luck.<br>
-Are you up for the challenge!<br>
+# CLI Mine Digger  
 
 ## 🛠️ Instructions to Run and Play the Program
 
